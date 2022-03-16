@@ -129,6 +129,13 @@ public class Lesson5 {
 
         System.out.println(langs.startsWith("a", 1)); // Проверка по индексу элемента содержится ли он в строке
 
+        String name = "Иван";
+        String surname = "Петров";
+        String fullname1 = name + " " + surname; // Значение высчитывается при выполнении программы
+        String fullname2 = "Иван" + " " + "Петров "; // Значение уже известно программе после компиляции до выполнения программы
+
+
+
     }
 
 }
