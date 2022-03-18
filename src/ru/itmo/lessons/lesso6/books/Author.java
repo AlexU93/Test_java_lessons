@@ -14,6 +14,14 @@ public class Author {
         System.out.println(name + " " + surname);
     }
 
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}'; // Метод вывода в консоль
+    }
+
     public String getFullName() {
         return name + " " + surname; // return - возвращает результат работы метода  и прерывает его
         // можно использовать с методами c void - тем самым прерывая метод

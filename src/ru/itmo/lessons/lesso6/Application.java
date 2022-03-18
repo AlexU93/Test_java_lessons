@@ -39,7 +39,7 @@ public class Application {
         shelf.addBook(book1,book1,book1);
 
         // Вывод имени автора первой книги на полке
-        System.out.println(shelf.books[0].author.name);
+        //System.out.println(shelf.books[0].author.name);
 
 
     }
