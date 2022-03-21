@@ -13,7 +13,7 @@ package ru.itmo.lessons.lesson7.base;
             maxHealtScore = healthScore; // присваеваем мак здоровье базовому
         }
 
-        private boolean isAlive() { // Метод на проверку живой ли юнит
+        public boolean isAlive() { // Метод на проверку живой ли юнит
             return healthScore > 0; // Возвращает только положительное здоровье
         }
 
@@ -31,4 +31,8 @@ package ru.itmo.lessons.lesson7.base;
         public int getHealthScore() {
             return healthScore;
         }
+
+        // абстрактный мето - содержится только в абстрактным классе
+        // без {}
+        public abstract void rest ();
     }
